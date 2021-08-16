@@ -1,0 +1,24 @@
+*{
+    
+    margin: 0; 
+    padding: 0;
+ }
+
+.container {
+    border
+    bottom:0%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    border: black;
+}
+
+.levels {
+    border: black;
+    text-align: center;
+    align-items: baseline;
+    flex-grow: 1;
+
+}
