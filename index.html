@@ -7,24 +7,28 @@
         <body>
             <div id="container">
                 <div class = "levels" id="level-1">
-                    <div class= "link">
-                        <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+                    <div id="left1">
+                        <div class= "link">
+                            <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+                        </div>
+                        <div class= "link">
+                            <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+                        </div>
                     </div>
-                    <div class= "link">
-                        <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
-                    </div>
-                    <div class= "link">
+                    <div id="right1">
+                        <div class= "link">
                             <a href="https://accounts.google.com/b/0/AddMailService">Gmail</a>
-                    </div>
-                    <div class= "link">
-                        <a href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
-                    </div>
-                    <span class="hovah">
-                        <img src="Images/apps_black_48dp.svg" alt="app button">
-                    </span>
-                    <span class="hovah">
-                        <img src="Images/person_black_48dp.svg" alt="account image">
-                    </span>
+                        </div>
+                        <div class= "link">
+                         <a href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
+                      </div>
+                      <span class="hovah">
+                            <img src="Images/apps_black_48dp.svg" alt="app button">
+                     </span>
+                      <span class="hovah">
+                            <img src="Images/person_black_48dp.svg" alt="account image">
+                       </span>
+                      </div>
                 </div>
                 <div class = "levels" id="level-2">
                     <div id = logo>
@@ -32,16 +36,14 @@
                     </div>
                 </div>
                 <div class = "levels" id="level-3">
-                    <div id="search bar">
-                        <div id= "icon">
-                            <img src="Images/search_black_36dp.svg" alt="search bar icon">
-                        </div>
-                        <div id="txt">
-                            <textarea name="search" id="search" cols="50" rows="1"></textarea>
-                        </div>
+                    <div id= "icon">
+                        <img src="Images/search_black_36dp.svg" alt="search bar icon">
                     </div>
-                    <div class= "button">
-                        <button name="button" onclick="runSearch()">Google Search</button>
+                    <div>
+                        <form action="Search Bar">
+                            <input type="text" id="sb">  <br>
+                            <input type="submit" >
+                        </form>
                     </div>
                 </div>
                 <div  class = "levels" id="level-4">

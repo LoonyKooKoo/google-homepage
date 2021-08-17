@@ -1,24 +1,100 @@
 *{
     
-    margin: 0; 
-    padding: 0;
- }
-
-.container {
-    border
-    bottom:0%;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    height: 100%;
+}
+body {
+    position: absolute;
+    top: 0px; /* Header Height */
+    bottom: 0px; /* Footer Height */
     width: 100%;
-    border: black;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container {
+    position: absolute;
+    top: 0px; /* Header Height */
+    bottom: 0px; /* Footer Height */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
 }
 
 .levels {
-    border: black;
-    text-align: center;
-    align-items: baseline;
-    flex-grow: 1;
+  /*  border: 5px solid black;*/
+  text-align: center;
+  flex-grow: 1;
+  padding:2%;
 
+}
+#level-1{
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+.link {
+    padding: 5px;
+    margin: 0px 5px 0px 5px;
+
+
+}
+
+#left1 {
+    height: 52px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+
+
+}
+
+#right1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+#level-4{
+    padding:10%;
+    flex-grow: 2;
+}
+
+#blank {
+    padding: 0px 50px 0px 50px;
+}
+
+#level-3 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#sb {
+    width: 400px;
+    height: 30px;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+#icon {
+    padding: 15px 0px 0px 0px;
+}
+
+#level-5 {
+    flex-grow: 1;
+    background-color:rgb(231, 233, 235);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
 }
